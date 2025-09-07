@@ -1,0 +1,46 @@
+.reelContainer {
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.reelHeadline {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  font-family: var(--font-family);
+}
+
+.reelGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.reelItem {
+  flex: 1 1 320px;
+  max-width: 400px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reelItem h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+iframe {
+  border-radius: 8px;
+  width: 100%;
+  height: 360px;
+}
